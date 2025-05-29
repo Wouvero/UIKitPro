@@ -18,7 +18,7 @@ public class IconImageView: UIImageView {
     private var color: UIColor
     
     // MARK: - Initializer
-    init(
+    public init(
         systemName: String,
         color: UIColor,
         pointSize: CGFloat = 20,
