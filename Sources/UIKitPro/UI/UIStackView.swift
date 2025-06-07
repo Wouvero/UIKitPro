@@ -11,7 +11,7 @@ import UIKit
 @available(iOS 11.0, tvOS 11.0, *)
 extension UIStackView {
     public convenience init(
-        arrangedSubviews: [UIView],
+        arrangedSubviews: [UIView] = [],
         axis: NSLayoutConstraint.Axis = .vertical,
         spacing: CGFloat = 0,
         alignment: UIStackView.Alignment = .fill,
