@@ -13,7 +13,7 @@ import UIKit
 extension UIView {
     fileprivate func _stack(
         _ axis: NSLayoutConstraint.Axis = .vertical,
-        views: [UIView],
+        views: [UIView] = [],
         spacing: CGFloat = 0,
         alignment: UIStackView.Alignment = .fill,
         distribution: UIStackView.Distribution = .fill
